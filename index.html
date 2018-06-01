@@ -1,129 +1,40 @@
 <!DOCTYPE html>
-<html>
-<head>
-  <title>The Trivia Game </title>
 
-  <link rel="stylesheet" href="assets/css/reset.css"
-  <link rel="stylesheet" href="assets/css/style.css">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  
+<html lang="en-us">
 
-  
+  <head>
 
-</head>
-<body>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center"><h1 class="title">Universe Trivia Game</h1><div>
-            </div>
-            <div class="row">
-                <div class="col-lg-4 col-lg-offset-4">
+    <meta charset="UTF-8">
+    <title>Totally Trivial Trivia</title>
 
-                    <button type="button" class="btn btn-primary btn-lg button-block" id="start">Start</button>
-                 </div>
-                <div class="col-lg-4 col-lg-offset text-center">
-                    <p id="time">Time Remaining:<span id="timer"></span></p>
+    <!-- CSS Reset Sheet -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.css">
 
-                </div>
-            </div>
-                
-            
+    <!-- Out Own CSS Sheet -->
+    <link rel="stylesheet" href="assets/css/style.css">
 
-        <div class="form text-center">
-            <p>Who came up with the theory of evolution?</p>
-            <form class="question">
-                <label class="radio-inline">
-                    <input type="radio" name="optradio" value="goodanswer">Darwin
-                </label>
-                <label class="radio-inline">
-                    <input type="radio" name="optradio" value="wrong">Einstein
-                </label>
-                <label class="radio-inline">
-                    <input type="radio" name="optradio" value="wrong">Galileo
-                </label>
-                <label class="radio-inline">
-                    <input type="radio" name="optradio" value="wrong">Newton
-                </label>
-            </form>
-
-            <p>According to the second law of thermodynamics, what increases over time?</p>
-            <form class="question">
-                <label class="radio-inline">
-                    <input type="radio" name="optradio" value="wrong">energy
-                </label>
-                <label class="radio-inline">
-                    <input type="radio" name="optradio" value="wrong">heat
-                </label>
-                <label class="radio-inline">
-                    <input type="radio" name="optradio" value="goodanswer">entropy
-                </label>
-                <label class="radio-inline">
-                    <input type="radio" name="optradio" value="wrong">speed
-                </label>
-            </form>
-
-            <p>According to the first law of thermodynamics, what cannot be created or destroyed?</p>
-            <form class="question">
-                <label class="radio-inline">
-                    <input type="radio" name="optradio" value="wrong">gravity
-                </label>
-                <label class="radio-inline">
-                    <input type="radio" name="optradio" value="goodanswer">energy
-                </label>
-                <label class="radio-inline">
-                    <input type="radio" name="optradio" value="wrong">light
-                </label>
-                <label class="radio-inline">
-                    <input type="radio" name="optradio" value="wrong">mass
-                </label>
-            </form>
-
-            <p>Who came up with the theory of relativity?</p>
-            <form class="question">
-                <label class="radio-inline">
-                    <input type="radio" name="optradio" value="goodanswer">Einstein
-                </label>
-                <label class="radio-inline">
-                    <input type="radio" name="optradio" value="wrong">Edison
-                </label>
-                <label class="radio-inline">
-                    <input type="radio" name="optradio" value="wrong">Copernicus
-                </label>
-                <label class="radio-inline">
-                    <input type="radio" name="optradio" value="wrong">Da Vinci
-                </label>
-            </form>
-
-            <p>Which scientist discovered that black holes actually give off radiation?</p>
-            <form class="question">
-                <label class="radio-inline">
-                    <input type="radio" name="optradio" value="wrong">Planck
-                </label>
-                <label class="radio-inline">
-                    <input type="radio" name="optradio" value="wrong">Tesla
-                </label>
-                <label class="radio-inline">
-                    <input type="radio" name="optradio" value="wrong">Hubble
-                </label>
-                <label class="radio-inline">
-                    <input type="radio" name="optradio" value="goodanswer">Hawking
-                </label>
-            </form>
-        </div>
-
-        <div class="row">
-            <div class="col-lg-4 col-lg-offset-4">
-                <button type="button" class="btn btn-primary btn-lg btn-block" id="done">DONE</button>
-            </div>
-
-        </div>
-    </div>
-        
-
-
+    <!-- jQuery -->
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script src="assets/javascript/app.js"></script>
 
- 
-</body>
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css?family=Geo" rel="stylesheet" type="text/css">
+
+  </head>
+
+  <body>
+
+    <div id="wrapper">
+      <h1>Totally Trivial Trivia!</h1>
+      <div id="sub-wrapper">
+        <div id="quiz-area">
+          <button id="start">Start</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Script -->
+    <script type="text/javascript" src="assets/javascript/app.js"></script>
+
+  </body>
+
 </html>
